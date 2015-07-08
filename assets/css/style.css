@@ -1,0 +1,267 @@
+
+
+body{
+	/* background: url(http://denizinc.com/myndos/assets/img/bg8.jpg) repeat-x 0 -152px;
+	*/
+	
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-color: #e8f4fe;
+	
+}
+
+
+h2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 20px!important;
+	color: #204f90;
+}
+
+.btn{
+	letter-spacing: 0.08em;
+}
+
+p{
+	line-height: 1.5em;
+	font-size: 1.3em;
+}
+.container{
+	background: #feffff;
+	width: 940px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+}
+
+.section{
+	overflow: hidden;
+	margin-bottom: 20px;
+
+}
+.section:before,.section:after {
+	display: table;
+	content: ""
+}
+.section:after {
+	clear: both
+}
+.row.main{
+	padding-bottom: 20px;
+}
+
+.roompics{
+	padding-bottom: 40px;
+}
+.sidenote{
+	padding-top: 40px;
+}
+.sidenote h3{
+	font: 2em Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 10px;
+}
+.sidenote p{
+	line-height: 1.5em;
+	color: #5e5e5e;
+}
+
+.section.banner{
+	margin-bottom: 20px;
+	/*height: 200px;*/
+}
+
+.col1{
+	width: 280px;
+	padding-left: 20px;
+	float: left;
+}
+.col2{
+	width: 638px;
+	float: left;
+}
+.header{
+	overflow: hidden;
+}
+.logo-wrapper{
+	float: left;
+}
+.nav-wrapper{
+	float: right;
+	height: 106px;
+}
+a.logo{
+	display: block;
+	text-indent: -999px;
+	width: 296px;
+	height: 106px;
+	background: url(http://denizinc.com/myndos/assets/img/myndos_logo_2.png) no-repeat 0;
+	margin-left: 10px;
+}
+.language {
+	float: right;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.language li{
+	float: left;
+}
+.language li a{
+	background-image: url(http://denizinc.com/myndos/assets/img/flagiconsborder.png);
+	text-indent: -999px;
+	width: 22px;
+	height: 14px;
+	opacity: 0.3;
+	margin-left: 5px;
+}
+.language li a.en{
+	background-position: -262px -120px;
+}
+.language li a.tr{
+	background-position: -70px -373px;
+}
+.language li a.de{
+	background-position: -422px -74px;
+}
+.language li a.fr{
+	background-position: -166px -120px;
+}
+
+.language li a:hover{
+	opacity: 0.7;
+}
+.language li a.active{
+	opacity: 1;
+}
+.nav.main{
+	float: right;
+	text-transform: capitalize;
+	margin: 0;
+	padding-right: 20px;
+}
+.nav.main li{
+	float: left;
+		padding-top: 70px;
+	padding-left: 30px;
+}
+.nav.main li a{
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 24px;
+}
+.nav.main li.active a{
+	border-bottom: 3px solid #e9c63a;
+}
+
+.flexslider{
+	margin-bottom: 20px;
+}
+
+
+.sidebar{
+	-moz-border-radius: 5px;
+	border-radius:5px;
+	background-color: #f5f2ea;
+	padding-bottom: 10px;
+}
+.sidebar h3{
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 5px 5px 20px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 20px;
+	background-color: #f4d764;
+	color: #005392;
+}
+.sidebar p{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.thumb{
+	margin-bottom:  20px;
+}
+.thumb img{
+	width: 274px;
+	padding: 3px;
+	border: 1px solid #f4f2ea;
+}
+
+
+.footer{
+	overflow: hidden;
+	color: #c2c2c2;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-bottom: 10px solid #061c3a;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-color: #062137;
+}
+.footer-container{
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+.footer .nav li{
+	float: left;
+}
+.footer p{
+	margin: 0;
+	padding: 0;
+}
+.footer p a{
+
+	color: #ffffff;
+}
+.footer .sitemap{
+	border-bottom: 1px solid #2b4459;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.footer .sitemap a{
+	padding-right: 15px;
+	margin-right: 15px;
+}
+
+label{
+	font-weight: bold;
+}
+
+.control-group{
+	padding-bottom: 1px;
+}
+
+.home-reservation{
+	font-size: 30px;
+	font-weight: 300;
+	height: 54px;
+	line-height: 36px;
+	margin-bottom: 18px;
+	margin-left: 58px;
+	margin-right: 58px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+/* @group Untitled Group */
+
+/* @group Untitled Group */
+
+.home-reservation .btn-large{
+	font-size: 20px;
+	font-weight: normal;
+	padding: 14px 24px;
+	margin-right: 10px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/* @end */
+
+
+/* @end */
